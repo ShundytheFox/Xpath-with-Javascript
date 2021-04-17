@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <product>
+        <category>GPU</category>
+        <name>RTX 3080</name>
+        <company>Nvidia</company>
+        <price>720</price>
+        <image>img/rtx3080.png</image>
+    </product>
+    <product>
+        <category>GPU</category>
+        <name>RTX 3070</name>
+        <company>Nvidia</company>
+        <price>520</price>
+        <image>img/rtx3070.jpg</image>
+    </product>
+    <product>
+        <category>GPU</category>
+        <name>RX 6800 XT</name>
+        <company>AMD</company>
+        <price>900</price>
+        <image>img/rx6800xt.jpg</image>
+    </product>
+    <product>
+        <category>CPU</category>
+        <name>i7-10700K</name>
+        <company>Intel</company>
+        <price>350</price>
+        <image>img/i7-10700k.jpg</image>
+    </product>
+    <product>
+        <category>CPU</category>
+        <name>i5-10600K</name>
+        <company>Intel</company>
+        <price>250</price>
+        <image>img/i5-10600k.jfif</image>
+    </product>
+    <product>
+        <category>CPU</category>
+        <name>R5 3600</name>
+        <company>AMD</company>
+        <price>150</price>
+        <image>img/r5-3600.jpg</image>
+    </product>
+    <product>
+        <category>RAM</category>
+        <name>Corsair Vengeance</name>
+        <company>Corsair</company>
+        <price>100</price>
+        <image>img/corsair-vengeance.jpg</image>
+    </product>
+    <product>
+        <category>RAM</category>
+        <name>Kingston HyperX Fury</name>
+        <company>Kingston</company>
+        <price>120</price>
+        <image>img/hyperx.jpg</image>
+    </product>
+    <product>
+        <category>HDD</category>
+        <name>Seagate Barracuda 2TB</name>
+        <company>Seagate</company>
+        <price>50</price>
+        <image>img/barracuda.jpg</image>
+    </product>
+    <product>
+        <category>HDD</category>
+        <name>WD Blue 1TB</name>
+        <company>Western Digital</company>
+        <price>35</price>
+        <image>img/blue.jpg</image>
+    </product>
+    <product>
+        <category>SSD</category>
+        <name>Samsung 960 EVO 1TB</name>
+        <company>Samsung</company>
+        <price>150</price>
+        <image>img/evo960.jpg</image>
+    </product>
+    <product>
+        <category>SSD</category>
+        <name>Kingston a400 1TB</name>
+        <company>Kingston</company>
+        <price>100</price>
+        <image>img/a400.jpg</image>
+    </product>
+</products>

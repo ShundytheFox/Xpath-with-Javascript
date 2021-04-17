@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio componentes informáticos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/products.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item spacer">
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Nombre componente" class="form-control" id="name">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit" id="search">Buscar</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item choose spacer">
+                    <div class="form-group">
+                        <select class="form-control" id="categorySelector">
+                            <option id="none" value="none">Selecciona una categoría</option>
+                            <option value="Todos">Todos</option>
+                            <option value="GPU">GPU</option>
+                            <option value="CPU">CPU</option>
+                            <option value="RAM">RAM</option>
+                            <option value="HDD">HDD</option>
+                            <option value="SSD">SSD</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="nav-item choose spacer">
+                    <div class="form-group">
+                        <select class="form-control" id="companySelector">
+                            <option id="none2" value="none">Selecciona una marca</option>
+                            <option value="Todas">Todas</option>
+                            <option value="AMD">AMD</option>
+                            <option value="Corsair">Corsair</option>
+                            <option value="Intel">Intel</option>
+                            <option value="Kingston">Kingston</option>
+                            <option value="Nvidia">Nvidia</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Seagate">Seagate</option>
+                            <option value="Western Digital">Western Digital</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="nav-item spacer">
+                    <a id="cheaper" class="btn btn-success" role="button">Seleccionar producto más barato</a>
+                </li>
+                <li class="nav-item spacer">
+                    <a id="expensier" class="btn btn-success" role="button">Seleccionar producto más caro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container realBody">
+        <div id="data" class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+
+            </div>
+            <div class="col-sm-2">
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a href="#">Inicio</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">Sobre nosotros</a>
+                |
+                <a href="#">Contacto</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 IES El Rincón</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <p><span>Industrial José Sánchez Peñate, s/n, 35001</span>
+                    Las Palmas de Gran Canaria, Las Palmas</p>
+            </div>
+
+            <div>
+                <p>928 22 72 83</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>EstaEmpresa</span>
+                EstaEmpresa se reserva el derecho a modificaciones.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
